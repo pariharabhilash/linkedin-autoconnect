@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>LinkedIn AutoConnect</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <div class="card">
+      <header class="header">
+        <h1 class="heading">LinkedIn AutoConnect</h1>
+        <div class="options">
+          <button class="btn btn-close" id="js-btn-close">
+            <img src="../assets/cross-30.png" height="20px" alt="logo" />
+          </button>
+        </div>
+      </header>
+      <main class="main-card">
+        <h4 class="heading-2">Invitations Sent</h4>
+        <div class="loader">
+          <svg class="progress-ring" height="120" width="120">
+            <circle
+              class="progress-ring__circle"
+              stroke-width="8"
+              fill="transparent"
+              r="50"
+              cx="60"
+              cy="60"
+            />
+          </svg>
+          <span class="invitation-count" id="js-invitations-count">0</span>
+        </div>
+        <button class="btn-action btn-blue" id="js-button-action">
+          Start connecting
+        </button>
+      </main>
+    </div>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

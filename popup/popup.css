@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.card {
+  min-width: 300px;
+  box-sizing: border-box;
+  background-color: rgb(36, 33, 33);
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(2, 1, 41);
+  padding: .8rem 1rem;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 1rem;
+  display:block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.btn-close {
+  background-color: transparent;
+  margin-left: 0.5rem;
+}
+
+i {
+  display:block;
+  padding-top: 2px;
+}
+
+.main-card {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.loader {
+  margin: 0.5rem 0;
+  position: relative;
+}
+
+.progress-ring {
+  box-sizing: border-box;
+}
+
+.invitation-count {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.btn-action {
+  padding: 0.5rem;
+  border-radius: inherit;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+.btn-blue {
+  background-color: #0077B5;
+  color: #FFFFFF;
+}
+
+.btn-blue:hover {
+  box-shadow: 0 0 1px 1px #0077B5;
+  background: none;
+  color: #0077B5;
+  box-sizing: border-box;
+}
+
+.btn-red {
+  background-color: red;
+  color: #FFFFFF;
+}
+
+.btn-red:hover {
+  box-shadow: 0 0 1px 1px red;
+  background: none;
+  color: red;
+  box-sizing: border-box;
+}
+
+.btn-disabled {
+  pointer-events: none;
+  background-color: transparent;
+  color: lightgray;
+  box-shadow: 0 0 1px 1px lightgray;
+}
+
+/* Loader */
+
+.progress-ring__circle {
+  transition: 0.35s stroke-dashoffset;
+  transform: rotate(-90deg) !important;
+  stroke: #0077B5;
+  transform-origin: 50% 50%;
+}
