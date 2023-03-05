@@ -31,9 +31,11 @@ chromes://extensions
 
 ### Screenshot
 
-
+![linkedin-autoconnect-screenshot](https://user-images.githubusercontent.com/120083268/222976235-32942fa9-beba-4fec-8328-69fad7153f0b.PNG)
 
 ### Demo
+
+https://user-images.githubusercontent.com/120083268/222976364-e92f1f3b-f763-43fb-abee-97b373c9f361.mp4
 
 
 
